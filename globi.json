@@ -1,0 +1,54 @@
+{
+  "@context" : [ "http://www.w3.org/ns/csvw", {
+    "@language" : "en"
+  } ],
+  "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+  "tables" : [ {
+    "@context" : [ "http://www.w3.org/ns/csvw", {
+      "@language" : "en"
+    } ],
+    "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+    "url" : "tableS5.tsv",
+    "dcterms:bibliographicCitation" : "@article{KAU2025111025,title = {Umbrella, keystone, or flagship? An integrated framework for identifying effective surrogate species},journal = {Biological Conservation},volume = {303},pages = {111025},year = {2025},issn = {0006-3207},doi = {https://doi.org/10.1016/j.biocon.2025.111025},author = {Minyi Kau and Byron V. Weckworth and Sheng Li and Mathias M. Pires and Daiying Jin and Michela Pacifici and Carlo Rondinini and Luigi Boitani and Thomas M. McCarthy and Zhi Lu and George B. Schaller and Steven R. Beissinger and Juan Li}}",
+    "delimiter" : "\t",
+    "headerRowCount" : 1,
+    "interactionTypeName": "preyedUponBy",
+    "interactionTypeId": "http://purl.obolibrary.org/obo/RO_0002458",
+    "null" : [ "" ],
+    "tableSchema" : {
+      "columns" : [ {
+        "name" : "http://www.w3.org/ns/prov#wasDerivedFrom",
+        "titles" : "http://www.w3.org/ns/prov#wasDerivedFrom",
+        "datatype" : "string"
+      }, {
+        "name" : "http://purl.org/dc/elements/1.1/format",
+        "titles" : "http://purl.org/dc/elements/1.1/format",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonName",
+        "titles" : "Prey",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonName",
+        "titles" : "Predator",
+        "datatype" : "string"
+      }, {
+        "name" : "Source Study",
+        "titles" : "Source Study",
+        "datatype" : "string"
+      }, {
+        "name" : "basisOfRecord",
+        "titles" : "Method",
+        "datatype" : "string"
+      }, {
+        "name" : "Data Recorded Location",
+        "titles" : "Data Recorded Location",
+        "datatype" : "string"
+      }, {
+        "name" : "referenceCitation",
+        "titles" : "Full Reference",
+        "datatype" : "string"
+      } ]
+    }
+  } ]
+}
